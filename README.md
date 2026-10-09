@@ -22,7 +22,9 @@ g++ -std=c++11 binary-search.cpp -o binary-search
 
 复杂度分析：
 
-最坏情况下算法运行的时间复杂度是$` \mathcal{O}(\log n) `$的，其中$n$是数组长度。
+最坏情况下算法运行的时间复杂度是$` \mathcal{O}(\log n) `$的，其中$` n `$是数组长度。
+
+声明：完成本题未使用任何AI工具。
 ### 3.Merge sort
 编译：
 ```bash
@@ -31,6 +33,16 @@ g++ -std=c++11 merge-sort.cpp -o merge-sort
 运行：
 ```bash
 .\merge-sort
+```
+说明：
+
+本题采取了课件中的分治思想(divide and conquer)，把大的问题拆成基本问题，再把基本问题的解合并。具体到这道题来说，就是每次把数组二分至单个元素，然后递归地往原始数组合并。
+
+复杂度分析：
+
+设解决规模为$` n `$的问题的所需时间为$` T(n) `$，合并的执行次数为$` 2n `$，那么我们有递归式
+```math
+\mathcal{O}(\log n)
 ```
 ### 4.Maximum return
 编译：
