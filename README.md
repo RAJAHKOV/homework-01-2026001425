@@ -1,5 +1,5 @@
 # homework-01-2026001425
-## The first homework of computer skills:
+## The first homework of computer skills:https://github.com/RAJAHKOV/homework-01-2026001425.git
 ### 1.GitHub 小项目
 项目URL(Uniform Resource Locator):https://github.com/RAJAHKOV/cpp-configuration.git
 
