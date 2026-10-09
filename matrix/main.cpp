@@ -58,7 +58,6 @@ int main()
         const Matrix U=A3+B3;
         
     }
-    //check(close(U.at(0, 0), 19.0) && close(D.at(0, 1), 22.0) && close(D.at(1, 0), 43.0) && close(D.at(1, 1), 50.0), "additional invalid-dimension test");
     catch(const std::invalid_argument&)
         {
             flag1 = true;
