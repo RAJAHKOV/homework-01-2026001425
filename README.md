@@ -15,5 +15,21 @@ g++ -std=c++11 binary-search.cpp -o binary-search
 .\binary-search
 ```
 ### 3.Merge sort
+编译：
+```bash
+g++ -std=c++11 merge-sort.cpp -o merge-sort
+```
+运行：
+```bash
+.\merge-sort
+```
 ### 4.Maximum return
+编译：
+```bash
+g++ -std=c++11 maximum-return.cpp -o maximum-return
+```
+运行：
+```bash
+.\maximum-return
+```
 ### 5.Matrix class
