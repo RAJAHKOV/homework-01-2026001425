@@ -22,7 +22,7 @@ g++ -std=c++11 binary-search.cpp -o binary-search
 
 复杂度分析：
 
-最坏情况下算法运行的时间复杂度是O(\log n)的，其中n是数组长度。
+最坏情况下算法运行的时间复杂度是$O(\log n)$的，其中$n$是数组长度。
 ### 3.Merge sort
 编译：
 ```bash
