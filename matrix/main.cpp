@@ -71,7 +71,6 @@ int main()
         const Matrix B4({{4.7,3.2}});
         const Matrix bad=A4+B4;
     }
-    //check(close(U.at(0, 0), 19.0) && close(D.at(0, 1), 22.0) && close(D.at(1, 0), 43.0) && close(D.at(1, 1), 50.0), "additional invalid-dimension test");
     catch(const std::invalid_argument&)
         {
             flag2 = true;
