@@ -7,11 +7,10 @@
 
 ### 2.Binary search
 ```bash
-g++ matrix.cpp main.cpp -o mat_test.exe -std=c++11
-./mat_test.exe
-git add .
-git commit -m "finish matrix homework"
-git push
+g++ -std=c++11 binary-search.cpp -o binary-search
+```
+```bash
+.\binary-search
 ```
 ### 3.Merge sort
 ### 4.Maximum return
