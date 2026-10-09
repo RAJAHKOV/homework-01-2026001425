@@ -3,7 +3,7 @@
 ### 1.GitHub 小项目
 项目URL(Uniform Resource Locator):https://github.com/RAJAHKOV/cpp-configuration.git
 
-最终实现的目标：在VScode中配置中文的C++开发环境。
+最终实现的目标：在VScode中配置中文的C++开发环境。涉及了具体步骤的截图，没借助任何人工智能工具。
 
 ### 2.Binary search
 编译：
