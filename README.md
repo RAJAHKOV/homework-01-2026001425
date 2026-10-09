@@ -42,7 +42,7 @@ g++ -std=c++11 merge-sort.cpp -o merge-sort
 
 设解决规模为$` n `$的问题的所需时间为$` T(n) `$，合并的执行次数为$` 2n `$，那么我们有递归式
 ```math
-\mathcal{O}(\log n)
+T(n)=2T(\frac{n}{2})+2n
 ```
 ### 4.Maximum return
 编译：
