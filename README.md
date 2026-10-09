@@ -6,9 +6,11 @@
 最终实现的目标：在VScode中配置中文的C++开发环境。
 
 ### 2.Binary search
+编译：
 ```bash
 g++ -std=c++11 binary-search.cpp -o binary-search
 ```
+运行：
 ```bash
 .\binary-search
 ```
